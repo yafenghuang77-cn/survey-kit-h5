@@ -1,0 +1,21 @@
+{
+  "setting": {
+    "autoAudits": false,
+    "urlCheck": false,
+    "preloadBackgroundData": false,
+    "compileHotReLoad": true,
+    "coverView": false,
+    "lazyloadPlaceholderEnable": false,
+    "skylineRenderEnable": false,
+    "useApiHook": true,
+    "showShadowRootInWxmlPanel": false,
+    "useStaticServer": false,
+    "useLanDebug": false,
+    "showES6CompileOption": false,
+    "checkInvalidKey": true,
+    "ignoreDevUnusedFiles": true,
+    "bigPackageSizeSupport": false
+  },
+  "libVersion": "3.17.3",
+  "projectname": "survey-kit-h5"
+}

@@ -1,6 +1,9 @@
 {
+  "root": true,
+  "ignorePatterns": ["dist/", "node_modules/", ".temp/", ".swc/"],
   "extends": ["taro/react"],
   "rules": {
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_", "ignoreRestSiblings": true }],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off"
   }

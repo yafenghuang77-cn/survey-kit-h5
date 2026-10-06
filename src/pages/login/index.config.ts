@@ -1,4 +1,4 @@
 export default definePageConfig({
-  navigationBarTitleText: '问序 · 我的聊天室',
+  navigationBarTitleText: '问序 · 登录',
   navigationStyle: 'custom'
 })

@@ -13,6 +13,14 @@ declare module '*.styl';
 
 declare namespace NodeJS {
   interface ProcessEnv {
+    /** 业务环境；测试打包仍使用 production 编译优化。 */
+    TARO_APP_ENV: 'development' | 'test' | 'production'
+    TARO_APP_PUBLIC_PATH: string
+    TARO_APP_API_BASE_URL: string
+    TARO_APP_WEAPP_API_BASE_URL: string
+    TARO_APP_DEV_HOST?: string
+    TARO_APP_DEV_PORT?: string
+    TARO_APP_API_PROXY_TARGET?: string
     /** NODE 内置环境变量, 会影响到最终构建生成产物 */
     NODE_ENV: 'development' | 'production',
     /** 当前构建的平台 */
@@ -25,5 +33,4 @@ declare namespace NodeJS {
     TARO_APP_ID: string
   }
 }
-
 

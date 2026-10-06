@@ -17,6 +17,8 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "types": ["node", "react", "webpack-env"],
     "typeRoots": [
       "node_modules/@types"
     ],

@@ -1,0 +1,52 @@
+/* postcss-pxtransform disable */
+.survey-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.survey-mark {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: var(--survey-primary);
+  flex-shrink: 0;
+}
+
+.survey-mark-sheet {
+  position: absolute;
+  width: 14px;
+  height: 18px;
+  left: 10px;
+  top: 8px;
+  border: 2px solid white;
+  border-radius: 5px;
+  transform: rotate(-8deg);
+}
+
+.survey-mark-tail {
+  position: absolute;
+  width: 7px;
+  height: 2px;
+  top: 27px;
+  left: 22px;
+  background: white;
+  transform: rotate(40deg);
+}
+
+.survey-brand-name {
+  display: block;
+  font-size: 19px;
+  font-weight: 650;
+  color: var(--survey-text);
+  line-height: 24px;
+}
+
+.survey-brand-caption {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--survey-muted);
+  line-height: 14px;
+}
